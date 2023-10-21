@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: #e91e63;
+  text-decoration: none;
+}
+a.active {
+  color: #9f1141;
+  text-decoration: underline;
+}
+.counter-text {
+  color: #e91e63;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0 10px;
+}
+.button {
+  background-color: #e91e63;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  background-color: #9f1141;
+}
+
+code {
+  background-color: black;
+  color: #e91e63;
+  display: inline-block;
+  padding: 2px 5px;
+  font-weight: bold;
+}
